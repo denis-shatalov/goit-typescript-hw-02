@@ -1,12 +1,12 @@
-import SearchBar from "./SearchBar/SearchBar";
-import ImageGallery from "./ImageGallery/ImageGallery";
+import SearchBar from "../SearchBar/SearchBar";
+import ImageGallery from "../ImageGallery/ImageGallery";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Toaster } from 'react-hot-toast';
-import Loader from "./Loader";
-import ErrorMessage from "./ErorrMessage";
-import LoadMoreBtn from "./LoadMoreBtn/LoadMoreBtn";
-import ImageModal from "./ImageModal/ImageModal"
+import Loader from "../Loader";
+import ErrorMessage from "../ErorrMessage";
+import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn";
+import ImageModal from "../ImageModal/ImageModal"
 
 
 export default function App() {
