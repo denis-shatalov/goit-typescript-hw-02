@@ -8,3 +8,7 @@
     color: white;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color: rgb(43, 43, 250);
+}
